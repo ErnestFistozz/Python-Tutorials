@@ -1,12 +1,12 @@
 #Learning Modules
-import random
+from random import randint
 
 for value in range(5):
-    print(random.randint(1,10))
+    print(randint(1,10))
 
 #Guessing game using random function
 
-correct = random.randint(1,100)
+correct = randint(1,100)
 while True:
     guess_number = int(input('Enter your guess: '))
     if guess_number < correct:
