@@ -43,3 +43,9 @@ elif value == 2 and value2 == 7:
     print("I have to be both")
 else:
     print("I am neither those value")
+
+
+alice = 'Alice'
+another_alice = 'Alice'
+if alice is another_alice:
+    print("We are both alice")
