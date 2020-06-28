@@ -21,3 +21,16 @@ print(value2 <= value)
 
 #Grater than or equal to >=
 print(value2 >= value)
+
+#Not operator
+
+print(not True)
+
+#is Operator
+print(True is False)
+
+is_alive = False
+if is_alive is True:
+    print("Hello I am alive")
+elif not is_alive:
+    print("I am dead")
