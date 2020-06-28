@@ -34,3 +34,12 @@ if is_alive is True:
     print("Hello I am alive")
 elif not is_alive:
     print("I am dead")
+
+#And Operator and Or Operator
+
+if value == 2 or value ==4:
+    print("I am either or")
+elif value == 2 and value2 == 7:
+    print("I have to be both")
+else:
+    print("I am neither those value")
